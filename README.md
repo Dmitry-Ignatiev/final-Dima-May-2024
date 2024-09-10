@@ -1,3 +1,6 @@
+This Project was created and implemented by May Tamar and Dmitry Ignatiev for the course of developing in the internet enviroment
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
