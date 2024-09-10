@@ -1,0 +1,40 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 16px; /* Space between items */
+    padding: 16px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.product-price {
+    color: #333;
+}
+
+.addButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .addButton:hover {
+        background-color: #218838;
+    }

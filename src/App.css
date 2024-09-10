@@ -1,0 +1,25 @@
+@import url(C:\Users\dima1\OneDrive\Desktop\single-page-app\src\components\NavHeader.css);
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    align-content:flex-start
+}
+
+tr:nth-child(even) {
+    background: #808080;
+}
+
+tr:nth-child(odd) {
+    background: #808080;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

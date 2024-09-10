@@ -1,0 +1,30 @@
+/* Layout.css */
+
+/* General layout container styling */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Header styling */
+.header {
+    background-color: #f8f9fa; /* Light grey background for the header */
+    padding: 1rem; /* Padding around header content */
+    border-bottom: 1px solid #dee2e6; /* Border at the bottom of the header */
+}
+
+/* Main content area styling */
+.main-content {
+    flex: 2; /* Takes up remaining space */
+    padding: 2rem; /* Padding around content */
+    background-color: #ffffff; /* White background for the main content */
+}
+
+/* Footer styling */
+.footer {
+    max-width:50;
+    background-color: #f8f9fa; /* Light grey background for the footer */
+    padding: 1rem; /* Padding around footer content */
+    border-top: 1px solid #dee2e6; /* Border at the top of the footer */
+}

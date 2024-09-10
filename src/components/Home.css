@@ -1,0 +1,9 @@
+.home-image {
+    width: 50%; 
+    max-width: 50px; 
+    height: auto; 
+    display: flex; 
+    padding-bottom:20 rem;
+    margin: 0 auto; 
+}
+

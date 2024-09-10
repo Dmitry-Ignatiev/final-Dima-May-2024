@@ -1,0 +1,31 @@
+.product-matrix {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Border around the product card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center-align text */
+}
+
+.product-image {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded image corners */
+}
+
+.product-name {
+    font-size: 18px; /* Font size for the product name */
+    margin: 10px 0; /* Margin around the product name */
+}
+
+.product-price {
+    font-size: 16px; /* Font size for the product price */
+    color: #888; /* Color for the price */
+}

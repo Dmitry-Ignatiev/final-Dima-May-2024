@@ -1,0 +1,56 @@
+/* src/components/Product.css */
+
+/* Individual product container */
+.product {
+    background-color: #fff; /* White background for each product */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 15px; /* Padding inside each product */
+    text-align: center; /* Center-align text and content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth transform for hover effect */
+}
+
+    /* Hover effect for products */
+    .product:hover {
+        transform: scale(1.05); /* Slightly enlarge the product on hover */
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+    }
+
+/* Styling for product images */
+.product-image {
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 10px; /* Spacing below the image */
+}
+
+/* Styling for product title */
+.product-title {
+    font-size: 1.2rem; /* Slightly larger font size */
+    margin: 10px 0; /* Margin above and below the title */
+    color: #333; /* Dark gray text color */
+    font-weight: bold; /* Make the title bold */
+}
+
+/* Styling for product price */
+.product-price {
+    font-size: 1.1rem; /* Font size for the price */
+    color: #ff4500; /* Orange color for the price */
+    margin-bottom: 10px; /* Space below the price */
+}
+
+/* Styling for the "Add to Cart" button */
+.add-to-cart-button {
+    background-color: #ffd800; /* Matches the theme color */
+    color: #333; /* Dark text color */
+    border: none; /* Removes default button border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 0.2s ease-in-out; /* Smooth background-color transition */
+}
+
+    /* Hover effect for the "Add to Cart" button */
+    .add-to-cart-button:hover {
+        background-color: #ff4500; /* Change to orange on hover */
+        color: #fff; /* White text on hover */
+    }
